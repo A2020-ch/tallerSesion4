@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-27T06:37:22.975Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runner.Runner.beforeCucumber()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "suma",
+        "description": "",
+        "id": "calculadora;suma",
+        "after": [
+          {
+            "result": {
+              "duration": 250000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "runner.Runner.afterCucumber(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have access to Calculator App",
+            "match": {
+              "location": "runner.MyStepClean.iHaveAccessToCalculatorApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18369000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the nine button on main screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nine",
+                  "offset": 12
+                }
+              ],
+              "location": "runner.MyStepClean.iClickTheNineButtonOnMainScreen(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the add button on main screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add",
+                  "offset": 12
+                }
+              ],
+              "location": "runner.MyStepClean.iClickTheNineButtonOnMainScreen(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1078000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the two button on main screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "two",
+                  "offset": 12
+                }
+              ],
+              "location": "runner.MyStepClean.iClickTheNineButtonOnMainScreen(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1078000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the equal button on main screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equal",
+                  "offset": 12
+                }
+              ],
+              "location": "runner.MyStepClean.iClickTheNineButtonOnMainScreen(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1430000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the result should be \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11\"",
+                  "offset": 21
+                }
+              ],
+              "location": "runner.MyStepClean.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CLEAN"
+          }
+        ]
+      }
+    ],
+    "name": "Calculadora",
+    "description": "",
+    "id": "calculadora",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/cleanCucumber/CalculadoraCleanTest.feature",
+    "tags": []
+  }
+]

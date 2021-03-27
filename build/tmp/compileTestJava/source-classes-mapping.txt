@@ -1,0 +1,60 @@
+controls/Label.java
+ controls.Label
+activities/MainCalculatorActivity.java
+ activities.MainCalculatorActivity
+factoryDevice/factoryDevices.java
+ factoryDevice.factoryDevices
+controls/ControlAppium.java
+ controls.ControlAppium
+activities/contactManager/NewContactScreen.java
+ activities.contactManager.NewContactScreen
+helpers/LocalReport.java
+ helpers.LocalReport
+basicAppium/BasicWhenDo.java
+ basicAppium.BasicWhenDo
+runner/MyStepcalculadora.java
+ runner.MyStepcalculadora
+controls/TextBox.java
+ controls.TextBox
+activities/WhenDo/NewNotes.java
+ activities.WhenDo.NewNotes
+activities/contactManager/InfoContactScreen.java
+ activities.contactManager.InfoContactScreen
+testClean/WhenDoTest.java
+ testClean.WhenDoTest
+basicAppium/BasicAppiumTest.java
+ basicAppium.BasicAppiumTest
+activities/WhenDo/MainScreen.java
+ activities.WhenDo.MainScreen
+factoryDevice/WindowsPhone.java
+ factoryDevice.WindowsPhone
+factoryDevice/IDevice.java
+ factoryDevice.IDevice
+basicAppium/BasicContactManager.java
+ basicAppium.BasicContactManager
+testClean/CalculadoraTest.java
+ testClean.CalculadoraTest
+factoryDevice/CloudDevice.java
+ factoryDevice.CloudDevice
+runner/MyStepcontact.java
+ runner.MyStepcontact
+controls/Button.java
+ controls.Button
+factoryDevice/Android.java
+ factoryDevice.Android
+factoryDevice/IOS.java
+ factoryDevice.IOS
+singletonSession/session.java
+ singletonSession.session
+activities/contactManager/MainScreen.java
+ activities.contactManager.MainScreen
+runner/MyStepdefs.java
+ runner.MyStepdefs
+runner/Runner.java
+ runner.Runner
+testClean/ContactManagerTest.java
+ testClean.ContactManagerTest
+activities/MainCalculatorScreen.java
+ activities.MainCalculatorScreen
+runner/MyStepClean.java
+ runner.MyStepClean
